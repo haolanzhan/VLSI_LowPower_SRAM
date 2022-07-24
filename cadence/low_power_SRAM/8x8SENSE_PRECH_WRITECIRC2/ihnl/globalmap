@@ -1,0 +1,15 @@
+CADENCE IHNL11140
+$model
+project_folder/PRE_CHARGE/schematic PRE_CHARGE
+project_folder/8x8SENSE_PRECH_WRITECIRC2/schematic 8x8SENSE_PRECH_WRITECIRC2
+SRAM_final/Write_Circuitry/schematic Write_Circuitry
+project_folder/8x8SENSE_AMP/schematic 8x8SENSE_AMP
+project_folder/8x8PRECH_WRITECIRC/schematic 8x8PRECH_WRITECIRC
+project_folder/8x8WRITE_CIRCUITRY/schematic 8x8WRITE_CIRCUITRY
+project_folder/SENSE_AMP/schematic SENSE_AMP
+project_folder/8x8PRECHARGE/schematic 8x8PRECHARGE
+$endmodel
+$net
+$endnet
+$param
+$endparam

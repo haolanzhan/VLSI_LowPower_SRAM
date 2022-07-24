@@ -1,0 +1,81 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project_folder
+* Top Cell Name: LS38Decoder
+* View Name:     schematic
+* Netlisted on:  May 19 17:08:13 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter IN OUT gnd vdd
+*.PININFO IN:I OUT:O gnd:B vdd:B
+MM0 OUT IN vdd vdd PMOS_VTG W=135.00n L=50n m=1
+MM1 OUT IN gnd gnd NMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    LS38Decoder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT LS38Decoder a<0> a<1> a<2> gnd vdd y<0> y<1> y<2> y<3> y<4> y<5> y<6> 
++ y<7>
+*.PININFO a<0>:I a<1>:I a<2>:I y<0>:O y<1>:O y<2>:O y<3>:O y<4>:O y<5>:O 
+*.PININFO y<6>:O y<7>:O gnd:B vdd:B
+MM24 y<3> a0' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM23 y<3> a1' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM22 gnd a<2> y<3> gnd NMOS_VTG W=90n L=50n m=1
+MM21 y<1> a0' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM20 gnd a<1> y<1> gnd NMOS_VTG W=90n L=50n m=1
+MM19 gnd a<2> y<1> gnd NMOS_VTG W=90n L=50n m=1
+MM18 gnd a<0> y<0> gnd NMOS_VTG W=90n L=50n m=1
+MM17 gnd a<1> y<0> gnd NMOS_VTG W=90n L=50n m=1
+MM16 gnd a<2> y<0> gnd NMOS_VTG W=90n L=50n m=1
+MM15 gnd a<0> y<2> gnd NMOS_VTG W=90n L=50n m=1
+MM14 y<2> a1' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM13 gnd a<2> y<2> gnd NMOS_VTG W=90n L=50n m=1
+MM12 y<5> a0' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM11 gnd a<1> y<5> gnd NMOS_VTG W=90n L=50n m=1
+MM10 y<5> a2' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM9 gnd a<0> y<4> gnd NMOS_VTG W=90n L=50n m=1
+MM8 gnd a<1> y<4> gnd NMOS_VTG W=90n L=50n m=1
+MM7 y<4> a2' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM6 gnd a<0> y<6> gnd NMOS_VTG W=90n L=50n m=1
+MM5 y<6> a1' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM3 y<7> a0' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM2 y<7> a2' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM1 y<7> a1' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM4 y<6> a2' gnd gnd NMOS_VTG W=90n L=50n m=1
+MM38 vdd a2' net06 vdd PMOS_VTG W=1.26u L=50n m=1
+MM37 vdd a<2> net03 vdd PMOS_VTG W=1.26u L=50n m=1
+MM36 net03 a<1> net29 vdd PMOS_VTG W=630.0n L=50n m=1
+MM35 net03 a1' net30 vdd PMOS_VTG W=630.0n L=50n m=1
+MM34 net06 a<1> net31 vdd PMOS_VTG W=630.0n L=50n m=1
+MM32 net29 a<0> y<0> vdd PMOS_VTG W=315.00n L=50n m=1
+MM31 net29 a0' y<1> vdd PMOS_VTG W=315.00n L=50n m=1
+MM30 net30 a<0> y<2> vdd PMOS_VTG W=315.00n L=50n m=1
+MM29 net30 a0' y<3> vdd PMOS_VTG W=315.00n L=50n m=1
+MM28 net31 a<0> y<4> vdd PMOS_VTG W=315.00n L=50n m=1
+MM27 net31 a0' y<5> vdd PMOS_VTG W=315.00n L=50n m=1
+MM25 net32 a0' y<7> vdd PMOS_VTG W=315.00n L=50n m=1
+MM33 net06 a1' net32 vdd PMOS_VTG W=630.0n L=50n m=1
+MM26 net32 a<0> y<6> vdd PMOS_VTG W=315.00n L=50n m=1
+XI2 a<0> a0' gnd vdd / inverter
+XI1 a<1> a1' gnd vdd / inverter
+XI0 a<2> a2' gnd vdd / inverter
+.ENDS
+

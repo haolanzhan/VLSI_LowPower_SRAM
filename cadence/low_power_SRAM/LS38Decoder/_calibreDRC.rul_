@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Thu May 19 17:07:48 CDT 2022
+//     by Calibre Interactive - DRC (v2011.4_35.27)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "LS38Decoder.calibre.db"
+LAYOUT PRIMARY "LS38Decoder"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "LS38Decoder.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "LS38Decoder.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/vol/eecs391/FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"
+

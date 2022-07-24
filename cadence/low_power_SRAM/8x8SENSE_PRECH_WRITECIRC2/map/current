@@ -1,0 +1,28 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "8x8SENSE_PRECH_WRITECIRC2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8SENSE_PRECH_WRITECIRC2"
+ )
+( model
+( "project_folder/PRE_CHARGE/schematic" "PRE_CHARGE" )
+( "project_folder/8x8WRITE_CIRCUITRY/schematic" "8x8WRITE_CIRCUITRY" )
+( "project_folder/8x8SENSE_PRECH_WRITECIRC2/schematic" "8x8SENSE_PRECH_WRITECIRC2" )
+( "project_folder/SENSE_AMP/schematic" "SENSE_AMP" )
+( "project_folder/8x8SENSE_AMP/schematic" "8x8SENSE_AMP" )
+( "SRAM_final/Write_Circuitry/schematic" "Write_Circuitry" )
+( "project_folder/8x8PRECHARGE/schematic" "8x8PRECHARGE" )
+( "project_folder/8x8PRECH_WRITECIRC/schematic" "8x8PRECH_WRITECIRC" )
+ )
+( "8x8SENSE_PRECH_WRITECIRC2" "ihnl/cds7/map" )
+( "8x8PRECHARGE" "ihnl/cds1/map" )
+( "8x8WRITE_CIRCUITRY" "ihnl/cds3/map" )
+( "8x8SENSE_AMP" "ihnl/cds6/map" )
+( "8x8PRECH_WRITECIRC" "ihnl/cds4/map" )
+( "SENSE_AMP" "ihnl/cds5/map" )
+( "PRE_CHARGE" "ihnl/cds0/map" )
+( "Write_Circuitry" "ihnl/cds2/map" )
+ )

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/inverter_2
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT inverter_2.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/inverter_2/inverter_2.src.net
+lvs_LvsOutFile RULES_FILE /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/inverter_2/_calibreLVS.rul_
+lvs_LvsRunTimes 1652898412 1652898412

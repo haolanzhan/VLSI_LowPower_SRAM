@@ -1,0 +1,38 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project_folder
+* Top Cell Name: Write_Circuitry
+* View Name:     schematic
+* Netlisted on:  May 28 19:01:59 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    Write_Circuitry
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Write_Circuitry BL BLbar data_in gnd vdd wr_en
+*.PININFO data_in:I wr_en:I BL:O BLbar:O gnd:B vdd:B
+MM11 net074 wr_en vdd vdd PMOS_VTG W=135.00n L=50n m=1
+MM5 net069 wr_en vdd vdd PMOS_VTG W=135.00n L=50n m=1
+MM2 net070 net069 BL vdd PMOS_VTG W=270.0n L=50n m=1
+MM3 BLbar net074 net061 vdd PMOS_VTG W=270.0n L=50n m=1
+MM6 net070 net061 vdd vdd PMOS_VTG W=270.0n L=50n m=1
+MM8 net061 data_in vdd vdd PMOS_VTG W=270.0n L=50n m=1
+MM10 net074 wr_en gnd gnd NMOS_VTG W=90n L=50n m=1
+MM4 net069 wr_en gnd gnd NMOS_VTG W=90n L=50n m=1
+MM1 BLbar wr_en net061 gnd NMOS_VTG W=180.0n L=50n m=1
+MM0 net070 wr_en BL gnd NMOS_VTG W=180.0n L=50n m=1
+MM7 net070 net061 gnd gnd NMOS_VTG W=180.0n L=50n m=1
+MM9 net061 data_in gnd gnd NMOS_VTG W=180.0n L=50n m=1
+.ENDS
+

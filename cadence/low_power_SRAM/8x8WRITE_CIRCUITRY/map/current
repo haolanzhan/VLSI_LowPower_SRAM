@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "8x8WRITE_CIRCUITRY"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8WRITE_CIRCUITRY"
+ )
+( model
+( "project_folder/8x8WRITE_CIRCUITRY/schematic" "8x8WRITE_CIRCUITRY" )
+( "project_folder/Write_Circuitry/schematic" "Write_Circuitry" )
+ )
+( "8x8WRITE_CIRCUITRY" "ihnl/cds1/map" )
+( "Write_Circuitry" "ihnl/cds0/map" )
+ )

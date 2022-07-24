@@ -1,0 +1,3 @@
+projectDir = '"~/cadence/simulation"
+designInfo = '("sram_haolan" "test_sram_6t" "schematic" "spectre")
+descriptionText = "None"

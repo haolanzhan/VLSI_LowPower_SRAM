@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1652648245 1652648246
+lvs_ExtOutFile RUNDIR /home/htz2578/ce391/cadence/sram_haolan/inverter
+lvs_ExtOutFile RULES_FILE /home/htz2578/ce391/cadence/sram_haolan/inverter/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/htz2578/ce391/cadence/sram_haolan/inverter/inverter.sp
+lvs_ExtOutFile EXTRACTION_REPORT inverter.lvs.report.ext

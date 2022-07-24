@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8PRECHARGE
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT 8x8PRECHARGE.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8PRECHARGE/8x8PRECHARGE.src.net
+lvs_LvsOutFile RULES_FILE /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8PRECHARGE/_calibreLVS.rul_
+lvs_LvsRunTimes 1653780814 1653780814

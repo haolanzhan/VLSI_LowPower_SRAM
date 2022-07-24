@@ -1,0 +1,34 @@
+(pmos_vtg
+  (NCSU_Devices_FreePDK45 PMOS_VTG symbol)
+  (
+    (d D)
+    (b B)
+    (g G)
+    (s S)
+  )
+)
+
+(nmos_vtg
+  (NCSU_Devices_FreePDK45 NMOS_VTG symbol)
+  (
+    (d D)
+    (b B)
+    (g G)
+    (s S)
+  )
+)
+((p cap c)
+  (analogLib cap symbol)
+  (
+    (MINUS)
+    (PLUS)
+  )
+)
+
+((p res r)
+  (analogLib res symbol)
+  (
+    (MINUS)
+    (PLUS)
+  )
+)

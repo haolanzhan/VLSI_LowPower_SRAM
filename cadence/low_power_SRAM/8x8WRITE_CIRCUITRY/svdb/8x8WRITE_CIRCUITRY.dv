@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/8x8WRITE_CIRCUITRY.dv
+dv_start matched
+dv_cell {8x8WRITE_CIRCUITRY} {8x8WRITE_CIRCUITRY} matched
+dv_obj_count -transformed_nets {59 59} -transformed_inst {64 64} -transformed_port {27 27}
+dv_end

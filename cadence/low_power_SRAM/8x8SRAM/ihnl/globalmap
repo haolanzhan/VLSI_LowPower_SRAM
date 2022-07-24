@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+project_folder/8x8SRAM/schematic 8x8SRAM
+project_folder/6TDPMTSRAM/schematic 6TDPMTSRAM
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -1,0 +1,182 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project_folder
+* Top Cell Name: 8x8SRAM
+* View Name:     schematic
+* Netlisted on:  May 28 18:53:56 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    6TDPMTSRAM
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6TDPMTSRAM Q Q' bit bit_n gnd sleep sleep_n vdd wl
+*.PININFO sleep:I sleep_n:I wl:I Q:O Q':O bit:B bit_n:B gnd:B vdd:B
+MM5 net044 Q' Q vdd PMOS_VTG W=247.5n L=50n m=1
+MM4 Q' Q net044 vdd PMOS_VTG W=247.5n L=50n m=1
+MM7 net044 sleep vdd vdd PMOS_VTG W=645.00n L=50n m=1
+MM1 bit_n wl Q' gnd NMOS_VTG W=217.5n L=50n m=1
+MM0 Q wl bit gnd NMOS_VTG W=217.5n L=50n m=1
+MM3 net043 Q' Q gnd NMOS_VTG W=380.0n L=50n m=1
+MM2 Q' Q net043 gnd NMOS_VTG W=380.0n L=50n m=1
+MM6 net043 sleep_n gnd gnd NMOS_VTG W=430.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    8x8SRAM
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 8x8SRAM BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BLbar<0> 
++ BLbar<1> BLbar<2> BLbar<3> BLbar<4> BLbar<5> BLbar<6> BLbar<7> WL<0> WL<1> 
++ WL<2> WL<3> WL<4> WL<5> WL<6> WL<7> gnd sleep<0> sleep<1> sleep<2> sleep<3> 
++ sleep<4> sleep<5> sleep<6> sleep<7> sleepbar<0> sleepbar<1> sleepbar<2> 
++ sleepbar<3> sleepbar<4> sleepbar<5> sleepbar<6> sleepbar<7> vdd
+*.PININFO WL<0>:I WL<1>:I WL<2>:I WL<3>:I WL<4>:I WL<5>:I WL<6>:I WL<7>:I 
+*.PININFO sleep<0>:I sleep<1>:I sleep<2>:I sleep<3>:I sleep<4>:I sleep<5>:I 
+*.PININFO sleep<6>:I sleep<7>:I sleepbar<0>:I sleepbar<1>:I sleepbar<2>:I 
+*.PININFO sleepbar<3>:I sleepbar<4>:I sleepbar<5>:I sleepbar<6>:I 
+*.PININFO sleepbar<7>:I BL<0>:B BL<1>:B BL<2>:B BL<3>:B BL<4>:B BL<5>:B 
+*.PININFO BL<6>:B BL<7>:B BLbar<0>:B BLbar<1>:B BLbar<2>:B BLbar<3>:B 
+*.PININFO BLbar<4>:B BLbar<5>:B BLbar<6>:B BLbar<7>:B gnd:B vdd:B
+XI70 net372 net373 BL<0> BLbar<0> gnd sleep<4> sleepbar<4> vdd WL<4> / 
++ 6TDPMTSRAM
+XI69 net374 net375 BL<0> BLbar<0> gnd sleep<6> sleepbar<6> vdd WL<6> / 
++ 6TDPMTSRAM
+XI68 net376 net377 BL<0> BLbar<0> gnd sleep<7> sleepbar<7> vdd WL<7> / 
++ 6TDPMTSRAM
+XI67 net378 net379 BL<4> BLbar<4> gnd sleep<7> sleepbar<7> vdd WL<7> / 
++ 6TDPMTSRAM
+XI66 net380 net381 BL<6> BLbar<6> gnd sleep<7> sleepbar<7> vdd WL<7> / 
++ 6TDPMTSRAM
+XI65 net382 net383 BL<7> BLbar<7> gnd sleep<7> sleepbar<7> vdd WL<7> / 
++ 6TDPMTSRAM
+XI64 net384 net385 BL<5> BLbar<5> gnd sleep<7> sleepbar<7> vdd WL<7> / 
++ 6TDPMTSRAM
+XI63 net386 net387 BL<2> BLbar<2> gnd sleep<7> sleepbar<7> vdd WL<7> / 
++ 6TDPMTSRAM
+XI62 net388 net389 BL<3> BLbar<3> gnd sleep<7> sleepbar<7> vdd WL<7> / 
++ 6TDPMTSRAM
+XI61 net390 net391 BL<1> BLbar<1> gnd sleep<7> sleepbar<7> vdd WL<7> / 
++ 6TDPMTSRAM
+XI60 net392 net393 BL<4> BLbar<4> gnd sleep<6> sleepbar<6> vdd WL<6> / 
++ 6TDPMTSRAM
+XI59 net394 net395 BL<6> BLbar<6> gnd sleep<6> sleepbar<6> vdd WL<6> / 
++ 6TDPMTSRAM
+XI58 net396 net397 BL<7> BLbar<7> gnd sleep<6> sleepbar<6> vdd WL<6> / 
++ 6TDPMTSRAM
+XI57 net398 net399 BL<5> BLbar<5> gnd sleep<6> sleepbar<6> vdd WL<6> / 
++ 6TDPMTSRAM
+XI56 net400 net401 BL<2> BLbar<2> gnd sleep<6> sleepbar<6> vdd WL<6> / 
++ 6TDPMTSRAM
+XI55 net402 net403 BL<3> BLbar<3> gnd sleep<6> sleepbar<6> vdd WL<6> / 
++ 6TDPMTSRAM
+XI54 net404 net405 BL<1> BLbar<1> gnd sleep<6> sleepbar<6> vdd WL<6> / 
++ 6TDPMTSRAM
+XI53 net406 net407 BL<0> BLbar<0> gnd sleep<5> sleepbar<5> vdd WL<5> / 
++ 6TDPMTSRAM
+XI52 net408 net409 BL<4> BLbar<4> gnd sleep<5> sleepbar<5> vdd WL<5> / 
++ 6TDPMTSRAM
+XI51 net410 net411 BL<6> BLbar<6> gnd sleep<5> sleepbar<5> vdd WL<5> / 
++ 6TDPMTSRAM
+XI50 net412 net413 BL<7> BLbar<7> gnd sleep<5> sleepbar<5> vdd WL<5> / 
++ 6TDPMTSRAM
+XI49 net414 net415 BL<5> BLbar<5> gnd sleep<5> sleepbar<5> vdd WL<5> / 
++ 6TDPMTSRAM
+XI48 net416 net417 BL<2> BLbar<2> gnd sleep<5> sleepbar<5> vdd WL<5> / 
++ 6TDPMTSRAM
+XI47 net418 net419 BL<3> BLbar<3> gnd sleep<5> sleepbar<5> vdd WL<5> / 
++ 6TDPMTSRAM
+XI46 net420 net421 BL<1> BLbar<1> gnd sleep<5> sleepbar<5> vdd WL<5> / 
++ 6TDPMTSRAM
+XI45 net422 net423 BL<4> BLbar<4> gnd sleep<4> sleepbar<4> vdd WL<4> / 
++ 6TDPMTSRAM
+XI44 net424 net425 BL<6> BLbar<6> gnd sleep<4> sleepbar<4> vdd WL<4> / 
++ 6TDPMTSRAM
+XI43 net426 net427 BL<7> BLbar<7> gnd sleep<4> sleepbar<4> vdd WL<4> / 
++ 6TDPMTSRAM
+XI42 net428 net429 BL<5> BLbar<5> gnd sleep<4> sleepbar<4> vdd WL<4> / 
++ 6TDPMTSRAM
+XI41 net430 net431 BL<2> BLbar<2> gnd sleep<4> sleepbar<4> vdd WL<4> / 
++ 6TDPMTSRAM
+XI40 net432 net433 BL<3> BLbar<3> gnd sleep<4> sleepbar<4> vdd WL<4> / 
++ 6TDPMTSRAM
+XI39 net434 net435 BL<1> BLbar<1> gnd sleep<4> sleepbar<4> vdd WL<4> / 
++ 6TDPMTSRAM
+XI38 net436 net437 BL<0> BLbar<0> gnd sleep<2> sleepbar<2> vdd WL<2> / 
++ 6TDPMTSRAM
+XI37 net438 net439 BL<0> BLbar<0> gnd sleep<3> sleepbar<3> vdd WL<3> / 
++ 6TDPMTSRAM
+XI36 net440 net441 BL<4> BLbar<4> gnd sleep<3> sleepbar<3> vdd WL<3> / 
++ 6TDPMTSRAM
+XI35 net442 net443 BL<6> BLbar<6> gnd sleep<3> sleepbar<3> vdd WL<3> / 
++ 6TDPMTSRAM
+XI34 net444 net445 BL<7> BLbar<7> gnd sleep<3> sleepbar<3> vdd WL<3> / 
++ 6TDPMTSRAM
+XI33 net446 net447 BL<5> BLbar<5> gnd sleep<3> sleepbar<3> vdd WL<3> / 
++ 6TDPMTSRAM
+XI32 net448 net449 BL<2> BLbar<2> gnd sleep<3> sleepbar<3> vdd WL<3> / 
++ 6TDPMTSRAM
+XI31 net450 net451 BL<3> BLbar<3> gnd sleep<3> sleepbar<3> vdd WL<3> / 
++ 6TDPMTSRAM
+XI30 net452 net453 BL<1> BLbar<1> gnd sleep<3> sleepbar<3> vdd WL<3> / 
++ 6TDPMTSRAM
+XI29 net454 net455 BL<4> BLbar<4> gnd sleep<2> sleepbar<2> vdd WL<2> / 
++ 6TDPMTSRAM
+XI28 net456 net457 BL<6> BLbar<6> gnd sleep<2> sleepbar<2> vdd WL<2> / 
++ 6TDPMTSRAM
+XI27 net458 net459 BL<7> BLbar<7> gnd sleep<2> sleepbar<2> vdd WL<2> / 
++ 6TDPMTSRAM
+XI26 net460 net461 BL<5> BLbar<5> gnd sleep<2> sleepbar<2> vdd WL<2> / 
++ 6TDPMTSRAM
+XI25 net462 net463 BL<2> BLbar<2> gnd sleep<2> sleepbar<2> vdd WL<2> / 
++ 6TDPMTSRAM
+XI24 net464 net465 BL<3> BLbar<3> gnd sleep<2> sleepbar<2> vdd WL<2> / 
++ 6TDPMTSRAM
+XI23 net466 net467 BL<1> BLbar<1> gnd sleep<2> sleepbar<2> vdd WL<2> / 
++ 6TDPMTSRAM
+XI22 net468 net469 BL<0> BLbar<0> gnd sleep<1> sleepbar<1> vdd WL<1> / 
++ 6TDPMTSRAM
+XI21 net470 net471 BL<4> BLbar<4> gnd sleep<1> sleepbar<1> vdd WL<1> / 
++ 6TDPMTSRAM
+XI20 net472 net473 BL<6> BLbar<6> gnd sleep<1> sleepbar<1> vdd WL<1> / 
++ 6TDPMTSRAM
+XI19 net474 net475 BL<7> BLbar<7> gnd sleep<1> sleepbar<1> vdd WL<1> / 
++ 6TDPMTSRAM
+XI18 net476 net477 BL<5> BLbar<5> gnd sleep<1> sleepbar<1> vdd WL<1> / 
++ 6TDPMTSRAM
+XI17 net478 net479 BL<2> BLbar<2> gnd sleep<1> sleepbar<1> vdd WL<1> / 
++ 6TDPMTSRAM
+XI16 net480 net481 BL<3> BLbar<3> gnd sleep<1> sleepbar<1> vdd WL<1> / 
++ 6TDPMTSRAM
+XI15 net482 net483 BL<1> BLbar<1> gnd sleep<1> sleepbar<1> vdd WL<1> / 
++ 6TDPMTSRAM
+XI14 net484 net485 BL<4> BLbar<4> gnd sleep<0> sleepbar<0> vdd WL<0> / 
++ 6TDPMTSRAM
+XI13 net486 net487 BL<6> BLbar<6> gnd sleep<0> sleepbar<0> vdd WL<0> / 
++ 6TDPMTSRAM
+XI12 net488 net489 BL<7> BLbar<7> gnd sleep<0> sleepbar<0> vdd WL<0> / 
++ 6TDPMTSRAM
+XI11 net490 net491 BL<5> BLbar<5> gnd sleep<0> sleepbar<0> vdd WL<0> / 
++ 6TDPMTSRAM
+XI10 net492 net493 BL<2> BLbar<2> gnd sleep<0> sleepbar<0> vdd WL<0> / 
++ 6TDPMTSRAM
+XI9 net494 net495 BL<3> BLbar<3> gnd sleep<0> sleepbar<0> vdd WL<0> / 
++ 6TDPMTSRAM
+XI8 net496 net497 BL<1> BLbar<1> gnd sleep<0> sleepbar<0> vdd WL<0> / 
++ 6TDPMTSRAM
+XI0 net498 net499 BL<0> BLbar<0> gnd sleep<0> sleepbar<0> vdd WL<0> / 
++ 6TDPMTSRAM
+.ENDS
+

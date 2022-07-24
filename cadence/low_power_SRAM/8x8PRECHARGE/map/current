@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "8x8PRECHARGE"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8PRECHARGE"
+ )
+( model
+( "project_folder/PRE_CHARGE/schematic" "PRE_CHARGE" )
+( "project_folder/8x8PRECHARGE/schematic" "8x8PRECHARGE" )
+ )
+( "8x8PRECHARGE" "ihnl/cds1/map" )
+( "PRE_CHARGE" "ihnl/cds0/map" )
+ )

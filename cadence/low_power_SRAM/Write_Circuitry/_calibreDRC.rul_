@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Sat May 28 02:00:28 CDT 2022
+//     by Calibre Interactive - DRC (v2011.4_35.27)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "/home/eeh1281/cadence/SRAM_final/Write_Circuitry/Write_Circuitry.calibre.db"
+LAYOUT PRIMARY "Write_Circuitry"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "/home/eeh1281/cadence/SRAM_final/Write_Circuitry/Write_Circuitry.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "/home/eeh1281/cadence/SRAM_final/Write_Circuitry/Write_Circuitry.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/vol/eecs391/FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"
+

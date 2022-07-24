@@ -1,0 +1,83 @@
+; DESIGN "inverter"
+; DATE "Mon Jan 17 14:51:06 2022"
+; VENDOR "Mentor Graphics Corp."
+; PROGRAM "Calibre xRC v2011.4_35.27"
+; CIRCUIT TEMPERATURE 27C
+; NOMINAL TEMPERATURE 27C
+;
+
+
+mgc_rve_device_template "PMOS_VTL" "D" "G" "S" "b"
+mgc_rve_device_template "NMOS_VTL" "D" "G" "S" "b"
+mgc_rve_device_template "PMOS_VTH" "D" "G" "S" "b"
+mgc_rve_device_template "NMOS_VTH" "D" "G" "S" "b"
+mgc_rve_device_template "PMOS_VTG" "D" "G" "S" "b"
+mgc_rve_device_template "NMOS_VTG" "D" "G" "S" "b"
+mgc_rve_device_template "PMOS_THKOX" "D" "G" "S" "b"
+mgc_rve_device_template "NMOS_THKOX" "D" "G" "S" "b"
+mgc_rve_device_template "v" "P" "M"
+mgc_rve_device_template "f" "P" "M"
+mgc_rve_parasitic_template "c" "r" "l" "k" "h"
+
+mgc_rve_cell_start "inverter" "IN" "gnd" "vdd" "OUT"
+mr_pi "NMOS_VTG" "MM1" '( "MM1_d" "MM1_g" "MM1_s" "MM1_b") '( ("l" 5e-08) ("w" 4e-07) ("ad" 4.2e-14) ("as" 4.2e-14) ("pd" 1.01e-06) ("ps" 1.01e-06) ("lpe" 3) ) '(0.1675 0.37)
+mr_pi "PMOS_VTG" "MM0" '( "MM0_d" "MM0_g" "MM0_s" "MM0_b") '( ("l" 5e-08) ("w" 6e-07) ("ad" 6.3e-14) ("as" 6.3e-14) ("pd" 1.41e-06) ("ps" 1.41e-06) ("lpe" 3) ) '(0.1675 1.105)
+
+mr_ni "IN" 218.494 1.15267e-16 7.59223e-17 '( "MM0_g" "MM1_g" )
+mr_pp 'c "ciIN_12" '("c_3_p" "0") 0.00975439f
+mr_pp 'c "ciIN_13" '("c_2_p" "0") 0.00398925f
+mr_pp 'c "ciIN_14" '("MM0_g" "0") 0.0575421f
+mr_pp 'c "ciIN_15" '("MM1_g" "0") 0.0439814f
+mr_pp 'r "rIN_16" '("IN_11" "c_3_p") 6.5
+mr_pp 'r "rIN_17" '("c_2_p" "IN_11") 89.3538
+mr_pp 'r "rIN_18" '("c_2_p" "IN") 0.102308
+mr_pp 'r "rIN_19" '("IN_5" "c_3_p") 1.98872
+mr_pp 'r "rIN_20" '("IN_5" "MM0_g") 67.08
+mr_pp 'r "rIN_21" '("IN_1" "c_3_p") 1.98872
+mr_pp 'r "rIN_22" '("IN_1" "MM1_g") 51.48
+
+
+mr_ni "gnd" 2.00725 5.22841e-17 5.85314e-17 '( "MM1_b" "MM1_s" )
+mr_pp 'c "cignd_8" '("gnd" "0") 0.0195295f
+mr_pp 'c "cignd_9" '("MM1_s" "0") 0.0214378f
+mr_pp 'c "cignd_10" '("gnd_5" "0") 0.0113169f
+mr_pp 'r "rgnd_11" '("gnd_9" "MM1_b") 0.106296
+mr_pp 'r "rgnd_12" '("gnd_9" "gnd") 0.148438
+mr_pp 'r "rgnd_13" '("gnd_5" "MM1_b") 0.159444
+mr_pp 'r "rgnd_14" '("gnd_5" "MM1_s") 1.59308
+
+
+mr_ni "vdd" 2.38 6.13404e-17 6.78363e-17 '( "MM0_b" "MM0_s" )
+mr_pp 'c "civdd_8" '("vdd" "0") 0.0188289f
+mr_pp 'c "civdd_9" '("MM0_s" "0") 0.0307578f
+mr_pp 'c "civdd_10" '("vdd_5" "0") 0.0117537f
+mr_pp 'r "rvdd_11" '("vdd_9" "MM0_b") 0.0739798
+mr_pp 'r "rvdd_12" '("vdd_9" "vdd") 0.134118
+mr_pp 'r "rvdd_13" '("vdd_5" "MM0_b") 0.198821
+mr_pp 'r "rvdd_14" '("vdd_5" "MM0_s") 1.97308
+
+
+mr_ni "OUT" 5.11538 5.6869e-17 1.24686e-16 '( "MM0_d" "MM1_d" )
+mr_pp 'c "ciOUT_6" '("MM1_d" "0") 0.056869f
+mr_pp 'r "rOUT_7" '("OUT" "MM0_d") 2.80615
+mr_pp 'r "rOUT_8" '("MM1_d" "OUT") 2.30923
+
+mr_pp 'c "cc_1" '("MM1_g" "MM1_s") 0.00799919f
+mr_pp 'c "cc_2" '("c_2_p" "MM1_s") 0.00348228f
+mr_pp 'c "cc_3" '("c_3_p" "MM1_s") 2.07438e-19
+mr_pp 'c "cc_4" '("MM1_g" "gnd") 0.00205987f
+mr_pp 'c "cc_5" '("c_2_p" "gnd") 3.00117e-19
+mr_pp 'c "cc_6" '("MM0_g" "MM0_s") 0.0137446f
+mr_pp 'c "cc_7" '("c_2_p" "MM0_s") 0.00719991f
+mr_pp 'c "cc_8" '("c_3_p" "MM0_s") 2.43177e-19
+mr_pp 'c "cc_9" '("MM0_g" "vdd") 0.00240345f
+mr_pp 'c "cc_10" '("c_2_p" "vdd") 2.20979e-19
+mr_pp 'c "cc_11" '("MM1_g" "MM1_d") 0.0252285f
+mr_pp 'c "cc_12" '("c_2_p" "MM1_d") 0.0128328f
+mr_pp 'c "cc_13" '("MM1_s" "MM0_s") 9.40985e-19
+mr_pp 'c "cc_14" '("MM1_s" "MM1_d") 0.0276402f
+mr_pp 'c "cc_15" '("gnd" "MM1_d") 0.0159013f
+mr_pp 'c "cc_16" '("MM0_s" "MM1_d") 0.0369646f
+mr_pp 'c "cc_17" '("vdd" "MM1_d") 0.0061186f
+mgc_rve_cell_end
+

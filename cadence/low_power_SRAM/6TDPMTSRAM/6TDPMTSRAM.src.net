@@ -1,0 +1,34 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project_folder
+* Top Cell Name: 6TDPMTSRAM
+* View Name:     schematic
+* Netlisted on:  May 28 18:34:36 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    6TDPMTSRAM
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6TDPMTSRAM Q Q' bit bit_n gnd sleep sleep_n vdd wl
+*.PININFO sleep:I sleep_n:I wl:I Q:O Q':O bit:B bit_n:B gnd:B vdd:B
+MM5 net044 Q' Q vdd PMOS_VTG W=247.5n L=50n m=1
+MM4 Q' Q net044 vdd PMOS_VTG W=247.5n L=50n m=1
+MM7 net044 sleep vdd vdd PMOS_VTG W=645.00n L=50n m=1
+MM1 bit_n wl Q' gnd NMOS_VTG W=217.5n L=50n m=1
+MM0 Q wl bit gnd NMOS_VTG W=217.5n L=50n m=1
+MM3 net043 Q' Q gnd NMOS_VTG W=380.0n L=50n m=1
+MM2 Q' Q net043 gnd NMOS_VTG W=380.0n L=50n m=1
+MM6 net043 sleep_n gnd gnd NMOS_VTG W=430.0n L=50n m=1
+.ENDS
+

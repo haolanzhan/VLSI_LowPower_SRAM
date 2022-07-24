@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+project_folder/PRE_CHARGE/schematic PRE_CHARGE
+$endmodel
+$net
+$endnet
+$param
+$endparam

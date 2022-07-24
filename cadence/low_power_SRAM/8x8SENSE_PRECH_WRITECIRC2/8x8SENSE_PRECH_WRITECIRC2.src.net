@@ -1,0 +1,191 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project_folder
+* Top Cell Name: 8x8SENSE_PRECH_WRITECIRC2
+* View Name:     schematic
+* Netlisted on:  May 28 18:47:25 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    PRE_CHARGE
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT PRE_CHARGE BL BLbar clk vdd
+*.PININFO clk:I BL:B BLbar:B vdd:B
+MM2 BL clk BLbar vdd PMOS_VTG W=90n L=50n m=1
+MM1 BLbar clk vdd vdd PMOS_VTG W=90n L=50n m=1
+MM0 vdd clk BL vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    8x8PRECHARGE
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 8x8PRECHARGE BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BLbar<0> 
++ BLbar<1> BLbar<2> BLbar<3> BLbar<4> BLbar<5> BLbar<6> BLbar<7> clk vdd
+*.PININFO clk:I BL<0>:B BL<1>:B BL<2>:B BL<3>:B BL<4>:B BL<5>:B BL<6>:B 
+*.PININFO BL<7>:B BLbar<0>:B BLbar<1>:B BLbar<2>:B BLbar<3>:B BLbar<4>:B 
+*.PININFO BLbar<5>:B BLbar<6>:B BLbar<7>:B vdd:B
+XI15 BL<2> BLbar<2> clk vdd / PRE_CHARGE
+XI9 BL<7> BLbar<7> clk vdd / PRE_CHARGE
+XI16 BL<1> BLbar<1> clk vdd / PRE_CHARGE
+XI14 BL<3> BLbar<3> clk vdd / PRE_CHARGE
+XI13 BL<0> BLbar<0> clk vdd / PRE_CHARGE
+XI12 BL<4> BLbar<4> clk vdd / PRE_CHARGE
+XI10 BL<6> BLbar<6> clk vdd / PRE_CHARGE
+XI11 BL<5> BLbar<5> clk vdd / PRE_CHARGE
+.ENDS
+
+************************************************************************
+* Library Name: SRAM_final
+* Cell Name:    Write_Circuitry
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Write_Circuitry BL BLbar data_in gnd vdd wr_en
+*.PININFO data_in:I wr_en:I BL:O BLbar:O gnd:B vdd:B
+MM11 net074 wr_en vdd vdd PMOS_VTG W=135.00n L=50n m=1
+MM5 net069 wr_en vdd vdd PMOS_VTG W=135.00n L=50n m=1
+MM2 net070 net069 BL vdd PMOS_VTG W=270.0n L=50n m=1
+MM3 BLbar net074 net061 vdd PMOS_VTG W=270.0n L=50n m=1
+MM6 net070 net061 vdd vdd PMOS_VTG W=270.0n L=50n m=1
+MM8 net061 data_in vdd vdd PMOS_VTG W=270.0n L=50n m=1
+MM10 net074 wr_en gnd gnd NMOS_VTG W=90n L=50n m=1
+MM4 net069 wr_en gnd gnd NMOS_VTG W=90n L=50n m=1
+MM1 BLbar wr_en net061 gnd NMOS_VTG W=180.0n L=50n m=1
+MM0 net070 wr_en BL gnd NMOS_VTG W=180.0n L=50n m=1
+MM7 net070 net061 gnd gnd NMOS_VTG W=180.0n L=50n m=1
+MM9 net061 data_in gnd gnd NMOS_VTG W=180.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    8x8WRITE_CIRCUITRY
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 8x8WRITE_CIRCUITRY BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> 
++ BLbar<0> BLbar<1> BLbar<2> BLbar<3> BLbar<4> BLbar<5> BLbar<6> BLbar<7> 
++ data_in<0> data_in<1> data_in<2> data_in<3> data_in<4> data_in<5> data_in<6> 
++ data_in<7> gnd vdd wr_en
+*.PININFO data_in<0>:I data_in<1>:I data_in<2>:I data_in<3>:I data_in<4>:I 
+*.PININFO data_in<5>:I data_in<6>:I data_in<7>:I wr_en:I BL<0>:B BL<1>:B 
+*.PININFO BL<2>:B BL<3>:B BL<4>:B BL<5>:B BL<6>:B BL<7>:B BLbar<0>:B 
+*.PININFO BLbar<1>:B BLbar<2>:B BLbar<3>:B BLbar<4>:B BLbar<5>:B BLbar<6>:B 
+*.PININFO BLbar<7>:B gnd:B vdd:B
+XI12 BL<3> BLbar<3> data_in<3> gnd vdd wr_en / Write_Circuitry
+XI9 BL<0> BLbar<0> data_in<0> gnd vdd wr_en / Write_Circuitry
+XI10 BL<1> BLbar<1> data_in<1> gnd vdd wr_en / Write_Circuitry
+XI11 BL<2> BLbar<2> data_in<2> gnd vdd wr_en / Write_Circuitry
+XI13 BL<7> BLbar<7> data_in<7> gnd vdd wr_en / Write_Circuitry
+XI14 BL<4> BLbar<4> data_in<4> gnd vdd wr_en / Write_Circuitry
+XI15 BL<5> BLbar<5> data_in<5> gnd vdd wr_en / Write_Circuitry
+XI16 BL<6> BLbar<6> data_in<6> gnd vdd wr_en / Write_Circuitry
+.ENDS
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    8x8PRECH_WRITECIRC
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 8x8PRECH_WRITECIRC BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> 
++ BLbar<0> BLbar<1> BLbar<2> BLbar<3> BLbar<4> BLbar<5> BLbar<6> BLbar<7> clk 
++ data_in<0> data_in<1> data_in<2> data_in<3> data_in<4> data_in<5> data_in<6> 
++ data_in<7> gnd vdd wr_en
+*.PININFO clk:I data_in<0>:I data_in<1>:I data_in<2>:I data_in<3>:I 
+*.PININFO data_in<4>:I data_in<5>:I data_in<6>:I data_in<7>:I wr_en:I BL<0>:B 
+*.PININFO BL<1>:B BL<2>:B BL<3>:B BL<4>:B BL<5>:B BL<6>:B BL<7>:B BLbar<0>:B 
+*.PININFO BLbar<1>:B BLbar<2>:B BLbar<3>:B BLbar<4>:B BLbar<5>:B BLbar<6>:B 
+*.PININFO BLbar<7>:B gnd:B vdd:B
+XI0 BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BLbar<0> BLbar<1> BLbar<2> 
++ BLbar<3> BLbar<4> BLbar<5> BLbar<6> BLbar<7> clk vdd / 8x8PRECHARGE
+XI1 BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BLbar<0> BLbar<1> BLbar<2> 
++ BLbar<3> BLbar<4> BLbar<5> BLbar<6> BLbar<7> data_in<0> data_in<1> 
++ data_in<2> data_in<3> data_in<4> data_in<5> data_in<6> data_in<7> gnd vdd 
++ wr_en / 8x8WRITE_CIRCUITRY
+.ENDS
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    SENSE_AMP
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT SENSE_AMP BL BLbar data_out gnd read_en vdd
+*.PININFO read_en:I data_out:O BL:B BLbar:B gnd:B vdd:B
+MM2 net12 read_en gnd gnd NMOS_VTG W=90n L=50n m=1
+MM1 net16 data_out net12 gnd NMOS_VTG W=90n L=50n m=1
+MM0 net12 net16 data_out gnd NMOS_VTG W=90n L=50n m=1
+MM6 BL read_en data_out vdd PMOS_VTG W=90n L=50n m=1
+MM5 net16 read_en BLbar vdd PMOS_VTG W=90n L=50n m=1
+MM4 net16 data_out vdd vdd PMOS_VTG W=90n L=50n m=1
+MM3 vdd net16 data_out vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    8x8SENSE_AMP
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 8x8SENSE_AMP BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BLbar<0> 
++ BLbar<1> BLbar<2> BLbar<3> BLbar<4> BLbar<5> BLbar<6> BLbar<7> data_out<0> 
++ data_out<1> data_out<2> data_out<3> data_out<4> data_out<5> data_out<6> 
++ data_out<7> gnd read_en vdd
+*.PININFO read_en:I data_out<0>:O data_out<1>:O data_out<2>:O data_out<3>:O 
+*.PININFO data_out<4>:O data_out<5>:O data_out<6>:O data_out<7>:O BL<0>:B 
+*.PININFO BL<1>:B BL<2>:B BL<3>:B BL<4>:B BL<5>:B BL<6>:B BL<7>:B BLbar<0>:B 
+*.PININFO BLbar<1>:B BLbar<2>:B BLbar<3>:B BLbar<4>:B BLbar<5>:B BLbar<6>:B 
+*.PININFO BLbar<7>:B gnd:B vdd:B
+XI10 BL<2> BLbar<2> data_out<2> gnd read_en vdd / SENSE_AMP
+XI9 BL<1> BLbar<1> data_out<1> gnd read_en vdd / SENSE_AMP
+XI13 BL<5> BLbar<5> data_out<5> gnd read_en vdd / SENSE_AMP
+XI11 BL<3> BLbar<3> data_out<3> gnd read_en vdd / SENSE_AMP
+XI12 BL<4> BLbar<4> data_out<4> gnd read_en vdd / SENSE_AMP
+XI14 BL<6> BLbar<6> data_out<6> gnd read_en vdd / SENSE_AMP
+XI15 BL<7> BLbar<7> data_out<7> gnd read_en vdd / SENSE_AMP
+XI8 BL<0> BLbar<0> data_out<0> gnd read_en vdd / SENSE_AMP
+.ENDS
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    8x8SENSE_PRECH_WRITECIRC2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 8x8SENSE_PRECH_WRITECIRC2 BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> 
++ BL<7> BLbar<0> BLbar<1> BLbar<2> BLbar<3> BLbar<4> BLbar<5> BLbar<6> 
++ BLbar<7> clk data_in<0> data_in<1> data_in<2> data_in<3> data_in<4> 
++ data_in<5> data_in<6> data_in<7> data_out<0> data_out<1> data_out<2> 
++ data_out<3> data_out<4> data_out<5> data_out<6> data_out<7> gnd read_en vdd 
++ wr_en
+*.PININFO clk:I data_in<0>:I data_in<1>:I data_in<2>:I data_in<3>:I 
+*.PININFO data_in<4>:I data_in<5>:I data_in<6>:I data_in<7>:I gnd:I read_en:I 
+*.PININFO vdd:I wr_en:I BL<0>:B BL<1>:B BL<2>:B BL<3>:B BL<4>:B BL<5>:B 
+*.PININFO BL<6>:B BL<7>:B BLbar<0>:B BLbar<1>:B BLbar<2>:B BLbar<3>:B 
+*.PININFO BLbar<4>:B BLbar<5>:B BLbar<6>:B BLbar<7>:B data_out<0>:B 
+*.PININFO data_out<1>:B data_out<2>:B data_out<3>:B data_out<4>:B 
+*.PININFO data_out<5>:B data_out<6>:B data_out<7>:B
+XI0 BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BLbar<0> BLbar<1> BLbar<2> 
++ BLbar<3> BLbar<4> BLbar<5> BLbar<6> BLbar<7> clk data_in<0> data_in<1> 
++ data_in<2> data_in<3> data_in<4> data_in<5> data_in<6> data_in<7> gnd vdd 
++ wr_en / 8x8PRECH_WRITECIRC
+XI2 BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BLbar<0> BLbar<1> BLbar<2> 
++ BLbar<3> BLbar<4> BLbar<5> BLbar<6> BLbar<7> data_out<0> data_out<1> 
++ data_out<2> data_out<3> data_out<4> data_out<5> data_out<6> data_out<7> gnd 
++ read_en vdd / 8x8SENSE_AMP
+.ENDS
+

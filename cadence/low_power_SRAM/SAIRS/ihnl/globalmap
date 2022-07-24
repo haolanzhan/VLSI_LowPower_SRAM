@@ -1,0 +1,22 @@
+CADENCE IHNL11140
+$model
+project_folder/inverter/schematic inverter
+project_folder/PRE_CHARGE/schematic PRE_CHARGE
+project_folder/8x8SENSE_PRECH_WRITECIRC2/schematic 8x8SENSE_PRECH_WRITECIRC2
+project_folder/Write_Circuitry/schematic Write_Circuitry
+project_folder/8x8SRAM/schematic 8x8SRAM
+project_folder/8x8SRAM_PRECH_SENSE_WRITE/schematic 8x8SRAM_PRECH_SENSE_WRITE
+project_folder/6TDPMTSRAM/schematic 6TDPMTSRAM
+project_folder/LS38Decoder/schematic LS38Decoder
+project_folder/inverter_2/schematic inverter_2
+project_folder/SAIRS/schematic SAIRS
+project_folder/8x8SENSE_AMP/schematic 8x8SENSE_AMP
+project_folder/8x8PRECH_WRITECIRC/schematic 8x8PRECH_WRITECIRC
+project_folder/8x8WRITE_CIRCUITRY/schematic 8x8WRITE_CIRCUITRY
+project_folder/SENSE_AMP/schematic SENSE_AMP
+project_folder/8x8PRECHARGE/schematic 8x8PRECHARGE
+$endmodel
+$net
+$endnet
+$param
+$endparam

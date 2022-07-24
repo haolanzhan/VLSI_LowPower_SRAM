@@ -1,0 +1,29 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project_folder
+* Top Cell Name: PRE_CHARGE
+* View Name:     schematic
+* Netlisted on:  May 28 19:00:16 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    PRE_CHARGE
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT PRE_CHARGE BL BLbar clk vdd
+*.PININFO clk:I BL:B BLbar:B vdd:B
+MM2 BL clk BLbar vdd PMOS_VTG W=90n L=50n m=1
+MM1 BLbar clk vdd vdd PMOS_VTG W=90n L=50n m=1
+MM0 vdd clk BL vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+

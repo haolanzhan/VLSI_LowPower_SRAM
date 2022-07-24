@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/SAIRS.dv
+dv_start matched
+dv_cell {SAIRS} {SAIRS} matched
+dv_obj_count -transformed_nets {241 241} -transformed_inst {345 345} -transformed_port {24 24}
+dv_end

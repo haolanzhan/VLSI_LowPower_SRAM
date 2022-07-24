@@ -1,0 +1,5 @@
+
+LAYOUT CASE YES
+SOURCE CASE YES
+
+INCLUDE "/vol/eecs391/FreePDK45/ncsu_basekit/techfile/calibre/calibrexRC.rul"

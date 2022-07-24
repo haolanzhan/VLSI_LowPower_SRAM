@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Tue May 10 23:29:50 CDT 2022
+//     by Calibre Interactive - DRC (v2011.4_35.27)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "/home/eeh1281/cadence/SRAMev/PRE_CHARGE/PRE_CHARGE.calibre.db"
+LAYOUT PRIMARY "PRE_CHARGE"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "/home/eeh1281/cadence/SRAMev/PRE_CHARGE/PRE_CHARGE.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "/home/eeh1281/cadence/SRAMev/PRE_CHARGE/PRE_CHARGE.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/vol/eecs391/FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"
+

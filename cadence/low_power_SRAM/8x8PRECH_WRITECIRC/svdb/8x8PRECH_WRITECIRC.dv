@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/8x8PRECH_WRITECIRC.dv
+dv_start matched
+dv_cell {8x8PRECH_WRITECIRC} {8x8PRECH_WRITECIRC} matched
+dv_obj_count -transformed_nets {60 60} -transformed_inst {88 88} -transformed_port {28 28}
+dv_end

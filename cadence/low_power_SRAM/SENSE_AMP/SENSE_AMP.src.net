@@ -1,0 +1,33 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project_folder
+* Top Cell Name: SENSE_AMP
+* View Name:     schematic
+* Netlisted on:  May 28 19:02:59 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    SENSE_AMP
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT SENSE_AMP BL BLbar data_out gnd read_en vdd
+*.PININFO read_en:I data_out:O BL:B BLbar:B gnd:B vdd:B
+MM2 net12 read_en gnd gnd NMOS_VTG W=90n L=50n m=1
+MM1 net16 data_out net12 gnd NMOS_VTG W=90n L=50n m=1
+MM0 net12 net16 data_out gnd NMOS_VTG W=90n L=50n m=1
+MM6 BL read_en data_out vdd PMOS_VTG W=90n L=50n m=1
+MM5 net16 read_en BLbar vdd PMOS_VTG W=90n L=50n m=1
+MM4 net16 data_out vdd vdd PMOS_VTG W=90n L=50n m=1
+MM3 vdd net16 data_out vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+

@@ -1,0 +1,73 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.7-64b 08/21/2018 19:43 (sjfhw315) $
+          : sub-version  IC6.1.7-64b.500.22 
+Started at: 28-May-2022  18:36:24
+User Name : htz2578
+Host Name : alfred.ece.northwestern.edu
+Directory : /home/htz2578/ce391/cadence
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8PRECH_WRITECIRC/8x8PRECH_WRITECIRC.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 project_folder
+strmFile                                /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8PRECH_WRITECIRC/8x8PRECH_WRITECIRC.calibre.db
+topCell                                 8x8PRECH_WRITECIRC
+view                                    layout
+runDir                                  /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8PRECH_WRITECIRC/
+logFile                                 PIPO.LOG.8x8PRECH_WRITECIRC
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_CDNS_653780984740.
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_CDNS_653780984741.
+INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/PTAP/layout as STRUCTURE PTAP_CDNS_653780984742.
+INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/NTAP/layout as STRUCTURE NTAP_CDNS_653780984743.
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_CDNS_653780984744.
+INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/dcont/layout as STRUCTURE dcont_CDNS_653780984741.
+INFO (XSTRM-223): 7. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_653780984740.
+INFO (XSTRM-223): 8. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_653780984742.
+INFO (XSTRM-223): 9. Translating cellView NCSU_TechLib_FreePDK45/dcont/layout as STRUCTURE dcont_CDNS_653780984744.
+INFO (XSTRM-223): 10. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_653780984743.
+INFO (XSTRM-223): 11. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_653780984745.
+INFO (XSTRM-223): 12. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_653780984746.
+INFO (XSTRM-223): 13. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_653780984747.
+INFO (XSTRM-223): 14. Translating cellView SRAM_final/Write_Circuitry/layout as STRUCTURE Write_Circuitry.
+INFO (XSTRM-223): 15. Translating cellView project_folder/8x8WRITE_CIRCUITRY/layout as STRUCTURE 8x8WRITE_CIRCUITRY.
+INFO (XSTRM-223): 16. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_653780984748.
+INFO (XSTRM-223): 17. Translating cellView project_folder/PRE_CHARGE/layout as STRUCTURE PRE_CHARGE.
+INFO (XSTRM-223): 18. Translating cellView project_folder/8x8PRECHARGE/layout as STRUCTURE 8x8PRECHARGE.
+INFO (XSTRM-223): 19. Translating cellView project_folder/8x8PRECH_WRITECIRC/layout as STRUCTURE 8x8PRECH_WRITECIRC.
+
+Summary of Objects Translated:
+	Scalar Instances:                       47
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             285
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           101
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   105
+	TextDisplay:                            83
+	Cells:                                  19
+
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 10852KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

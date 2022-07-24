@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "8x8SENSE_AMP"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8SENSE_AMP"
+ )
+( model
+( "project_folder/SENSE_AMP/schematic" "SENSE_AMP" )
+( "project_folder/8x8SENSE_AMP/schematic" "8x8SENSE_AMP" )
+ )
+( "8x8SENSE_AMP" "ihnl/cds1/map" )
+( "SENSE_AMP" "ihnl/cds0/map" )
+ )

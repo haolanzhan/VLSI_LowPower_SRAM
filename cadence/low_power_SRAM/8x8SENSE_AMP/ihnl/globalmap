@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+project_folder/8x8SENSE_AMP/schematic 8x8SENSE_AMP
+project_folder/SENSE_AMP/schematic SENSE_AMP
+$endmodel
+$net
+$endnet
+$param
+$endparam

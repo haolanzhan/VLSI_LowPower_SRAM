@@ -1,0 +1,64 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.7-64b 08/21/2018 19:43 (sjfhw315) $
+          : sub-version  IC6.1.7-64b.500.22 
+Started at: 28-May-2022  03:01:39
+User Name : eeh1281
+Host Name : moore.wot.eecs.northwestern.edu
+Directory : /home/eeh1281/cadence
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 SRAM_final
+strmFile                                /home/eeh1281/cadence/SRAM_final/8x8WRITE_CIRCUITRY/8x8SENSE_AMP.calibre.db
+topCell                                 8x8SENSE_AMP
+view                                    layout
+runDir                                  /home/eeh1281/cadence/SRAM_final/8x8WRITE_CIRCUITRY/
+logFile                                 PIPO.LOG.8x8SENSE_AMP
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/NTAP/layout as STRUCTURE NTAP_CDNS_653724899470.
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/PTAP/layout as STRUCTURE PTAP_CDNS_653724899471.
+INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_CDNS_653724899472.
+INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_CDNS_653724899473.
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/dcont/layout as STRUCTURE dcont_CDNS_653724899471.
+INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_653724899470.
+INFO (XSTRM-223): 7. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_CDNS_653724899472.
+INFO (XSTRM-223): 8. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_653724899473.
+INFO (XSTRM-223): 9. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_CDNS_653724899474.
+INFO (XSTRM-223): 10. Translating cellView SRAMev/SENSE_AMP/layout as STRUCTURE SENSE_AMP.
+INFO (XSTRM-223): 11. Translating cellView SRAM_final/8x8SENSE_AMP/layout as STRUCTURE 8x8SENSE_AMP.
+
+Summary of Objects Translated:
+	Scalar Instances:                       23
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             128
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           16
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   45
+	TextDisplay:                            33
+	Cells:                                  11
+
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 10256KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.

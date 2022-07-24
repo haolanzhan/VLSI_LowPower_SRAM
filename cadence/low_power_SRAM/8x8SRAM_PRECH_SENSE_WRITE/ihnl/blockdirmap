@@ -1,0 +1,13 @@
+CADENCE IHNL111411
+
+project_folder PRE_CHARGE schematic cds0
+project_folder 8x8PRECHARGE schematic cds1
+SRAM_final Write_Circuitry schematic cds2
+project_folder 8x8WRITE_CIRCUITRY schematic cds3
+project_folder 8x8PRECH_WRITECIRC schematic cds4
+project_folder SENSE_AMP schematic cds5
+project_folder 8x8SENSE_AMP schematic cds6
+project_folder 8x8SENSE_PRECH_WRITECIRC2 schematic cds7
+project_folder 6TDPMTSRAM schematic cds8
+project_folder 8x8SRAM schematic cds9
+project_folder 8x8SRAM_PRECH_SENSE_WRITE schematic cds10

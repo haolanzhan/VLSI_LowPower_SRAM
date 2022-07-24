@@ -1,0 +1,58 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project_folder
+* Top Cell Name: 8x8SENSE_AMP
+* View Name:     schematic
+* Netlisted on:  May 28 18:38:41 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    SENSE_AMP
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT SENSE_AMP BL BLbar data_out gnd read_en vdd
+*.PININFO read_en:I data_out:O BL:B BLbar:B gnd:B vdd:B
+MM2 net12 read_en gnd gnd NMOS_VTG W=90n L=50n m=1
+MM1 net16 data_out net12 gnd NMOS_VTG W=90n L=50n m=1
+MM0 net12 net16 data_out gnd NMOS_VTG W=90n L=50n m=1
+MM6 BL read_en data_out vdd PMOS_VTG W=90n L=50n m=1
+MM5 net16 read_en BLbar vdd PMOS_VTG W=90n L=50n m=1
+MM4 net16 data_out vdd vdd PMOS_VTG W=90n L=50n m=1
+MM3 vdd net16 data_out vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    8x8SENSE_AMP
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 8x8SENSE_AMP BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BLbar<0> 
++ BLbar<1> BLbar<2> BLbar<3> BLbar<4> BLbar<5> BLbar<6> BLbar<7> data_out<0> 
++ data_out<1> data_out<2> data_out<3> data_out<4> data_out<5> data_out<6> 
++ data_out<7> gnd read_en vdd
+*.PININFO read_en:I data_out<0>:O data_out<1>:O data_out<2>:O data_out<3>:O 
+*.PININFO data_out<4>:O data_out<5>:O data_out<6>:O data_out<7>:O BL<0>:B 
+*.PININFO BL<1>:B BL<2>:B BL<3>:B BL<4>:B BL<5>:B BL<6>:B BL<7>:B BLbar<0>:B 
+*.PININFO BLbar<1>:B BLbar<2>:B BLbar<3>:B BLbar<4>:B BLbar<5>:B BLbar<6>:B 
+*.PININFO BLbar<7>:B gnd:B vdd:B
+XI10 BL<2> BLbar<2> data_out<2> gnd read_en vdd / SENSE_AMP
+XI9 BL<1> BLbar<1> data_out<1> gnd read_en vdd / SENSE_AMP
+XI13 BL<5> BLbar<5> data_out<5> gnd read_en vdd / SENSE_AMP
+XI11 BL<3> BLbar<3> data_out<3> gnd read_en vdd / SENSE_AMP
+XI12 BL<4> BLbar<4> data_out<4> gnd read_en vdd / SENSE_AMP
+XI14 BL<6> BLbar<6> data_out<6> gnd read_en vdd / SENSE_AMP
+XI15 BL<7> BLbar<7> data_out<7> gnd read_en vdd / SENSE_AMP
+XI8 BL<0> BLbar<0> data_out<0> gnd read_en vdd / SENSE_AMP
+.ENDS
+

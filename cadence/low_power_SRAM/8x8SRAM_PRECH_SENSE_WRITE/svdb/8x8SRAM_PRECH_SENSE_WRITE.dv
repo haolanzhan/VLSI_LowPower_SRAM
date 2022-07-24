@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/8x8SRAM_PRECH_SENSE_WRITE.dv
+dv_start matched
+dv_cell {8x8SRAM_PRECH_SENSE_WRITE} {8x8SRAM_PRECH_SENSE_WRITE} matched
+dv_obj_count -transformed_nets {237 237} -transformed_inst {312 312} -transformed_port {61 61}
+dv_end

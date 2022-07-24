@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1653782161 1653782161
+lvs_ExtOutFile RUNDIR /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8SRAM_PRECH_SENSE_WRITE
+lvs_ExtOutFile RULES_FILE /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8SRAM_PRECH_SENSE_WRITE/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/8x8SRAM_PRECH_SENSE_WRITE/8x8SRAM_PRECH_SENSE_WRITE.sp
+lvs_ExtOutFile EXTRACTION_REPORT 8x8SRAM_PRECH_SENSE_WRITE.lvs.report.ext

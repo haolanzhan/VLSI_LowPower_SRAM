@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/Write_Circuitry.dv
+dv_start matched
+dv_cell {Write_Circuitry} {Write_Circuitry} matched
+dv_obj_count -transformed_nets {10 10} -transformed_inst {8 8} -transformed_port {6 6}
+dv_end

@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+project_folder/inverter/schematic inverter
+project_folder/LS38Decoder/schematic LS38Decoder
+$endmodel
+$net
+$endnet
+$param
+$endparam

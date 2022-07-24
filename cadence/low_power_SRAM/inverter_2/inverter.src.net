@@ -1,0 +1,28 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  sram_haolan
+* Top Cell Name: inverter
+* View Name:     schematic
+* Netlisted on:  May 15 15:57:25 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: sram_haolan
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter IN OUT gnd vdd
+*.PININFO IN:I OUT:O gnd:B vdd:B
+MM0 OUT IN vdd vdd PMOS_VTG W=135.00n L=50n m=1
+MM1 OUT IN gnd gnd NMOS_VTG W=90n L=50n m=1
+.ENDS
+

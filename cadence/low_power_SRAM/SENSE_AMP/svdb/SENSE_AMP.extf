@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1653782579 1653782580
+lvs_ExtOutFile RUNDIR /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/SENSE_AMP
+lvs_ExtOutFile RULES_FILE /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/SENSE_AMP/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/SENSE_AMP/SENSE_AMP.sp
+lvs_ExtOutFile EXTRACTION_REPORT SENSE_AMP.lvs.report.ext

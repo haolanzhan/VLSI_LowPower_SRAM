@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+sram_haolan/inverter/schematic inverter
+$endmodel
+$net
+$endnet
+$param
+$endparam

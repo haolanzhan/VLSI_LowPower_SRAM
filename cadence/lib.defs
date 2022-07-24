@@ -1,0 +1,12 @@
+DEFINE analogLib /vol/cadence/IC615/tools/dfII/etc/cdslib/artist/analogLib
+ASSIGN analogLib libMode shared
+DEFINE US_8ths   /vol/cadence/IC615/tools/dfII/etc/cdslib/sheets/US_8ths
+ASSIGN US_8ths   libMode shared
+DEFINE basic     /vol/cadence/IC615/tools/dfII/etc/cdslib/basic
+ASSIGN basic     libMode shared
+DEFINE cdsDefTechLib /vol/cadence/IC615/tools/dfII/etc/cdsDefTechLib
+ASSIGN cdsDefTechLib libMode shared
+DEFINE NCSU_TechLib_FreePDK45   /vol/eecs391/FreePDK45/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+ASSIGN NCSU_TechLib_FreePDK45  libMode shared
+DEFINE NCSU_Devices_FreePDK45   /vol/eecs391/Desktop/FreePDK45/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+ASSIGN NCSU_Devices_FreePDK45  libMode shared

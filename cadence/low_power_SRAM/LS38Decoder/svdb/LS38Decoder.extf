@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1652998094 1652998094
+lvs_ExtOutFile RUNDIR /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/LS38Decoder
+lvs_ExtOutFile RULES_FILE /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/LS38Decoder/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/LS38Decoder/LS38Decoder.sp
+lvs_ExtOutFile EXTRACTION_REPORT LS38Decoder.lvs.report.ext

@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+project_folder/Write_Circuitry/schematic Write_Circuitry
+$endmodel
+$net
+$endnet
+$param
+$endparam

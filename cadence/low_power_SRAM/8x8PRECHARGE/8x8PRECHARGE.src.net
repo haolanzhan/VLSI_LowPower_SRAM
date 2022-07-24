@@ -1,0 +1,50 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  project_folder
+* Top Cell Name: 8x8PRECHARGE
+* View Name:     schematic
+* Netlisted on:  May 28 18:33:33 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    PRE_CHARGE
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT PRE_CHARGE BL BLbar clk vdd
+*.PININFO clk:I BL:B BLbar:B vdd:B
+MM2 BL clk BLbar vdd PMOS_VTG W=90n L=50n m=1
+MM1 BLbar clk vdd vdd PMOS_VTG W=90n L=50n m=1
+MM0 vdd clk BL vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: project_folder
+* Cell Name:    8x8PRECHARGE
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 8x8PRECHARGE BL<0> BL<1> BL<2> BL<3> BL<4> BL<5> BL<6> BL<7> BLbar<0> 
++ BLbar<1> BLbar<2> BLbar<3> BLbar<4> BLbar<5> BLbar<6> BLbar<7> clk vdd
+*.PININFO clk:I BL<0>:B BL<1>:B BL<2>:B BL<3>:B BL<4>:B BL<5>:B BL<6>:B 
+*.PININFO BL<7>:B BLbar<0>:B BLbar<1>:B BLbar<2>:B BLbar<3>:B BLbar<4>:B 
+*.PININFO BLbar<5>:B BLbar<6>:B BLbar<7>:B vdd:B
+XI15 BL<2> BLbar<2> clk vdd / PRE_CHARGE
+XI9 BL<7> BLbar<7> clk vdd / PRE_CHARGE
+XI16 BL<1> BLbar<1> clk vdd / PRE_CHARGE
+XI14 BL<3> BLbar<3> clk vdd / PRE_CHARGE
+XI13 BL<0> BLbar<0> clk vdd / PRE_CHARGE
+XI12 BL<4> BLbar<4> clk vdd / PRE_CHARGE
+XI10 BL<6> BLbar<6> clk vdd / PRE_CHARGE
+XI11 BL<5> BLbar<5> clk vdd / PRE_CHARGE
+.ENDS
+

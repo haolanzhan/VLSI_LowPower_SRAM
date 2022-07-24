@@ -1,0 +1,669 @@
+8x8SENSE_PRECH_WRITECIRC 2000
+Well.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Nwell and Pwell must not overlap
+Well.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Min spacing of pwell to nwell = 0.225
+Well.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Min width of well = 0.2
+Poly.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Min width of poly = 0.05
+Poly.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Min spacing of gate poly = 0.14
+Poly.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Min extension of poly past active = 0.05
+Poly.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum active enclosure of gate = 0.07
+Poly.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of poly to active = 0.05
+Poly.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of field poly = 0.075
+Active.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of active = 0.09
+Active.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of active areas =  0.08
+Active.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum well enclosure of active = 0.055
+Active.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Active must be inside well
+Implant.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of implant to gate = 0.07
+Implant.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of implant to contact = 0.025
+Implant.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of implant = 0.045
+Implant.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of implant = 0.045
+Implant.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Nimplant and pimplant must not overlap
+Contact.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of contact = 0.065
+Contact.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of contact = 0.075
+Contact.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Contact must be inside metal1 and active or poly
+Contact.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum active enclosure of contact = 0.005
+Contact.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum poly enclosure of contact = 0.005
+Contact.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of contact to poly = 0.035
+Metal1.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of metal1 = 0.065
+Metal1.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal1 = 0.065
+Metal1.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Metal1 must extend past contact by 0.035 on two opposite sides
+Metal1.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Metal1 must extend past via1 by 0.035 on two opposite sides
+Via1.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of via1 = 0.065
+Via1.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of via1 = 0.075
+Via1.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via1 must be inside metal1
+Via1.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via1 must be inside metal2
+Metal2.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of metal2 = 0.07
+Metal2.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal2 = 0.07
+Metal2.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Metal2 must extend past via1 by 0.035 on two opposite sides
+Metal2.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Metal2 must extend past via2 by 0.035 on two opposite sides
+Via2.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of via2 = 0.07
+Via2.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of via2 = 0.085
+Via2.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via2 must be inside metal2
+Via2.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via2 must be inside metal3
+Metal3.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of metal3 = 0.07
+Metal3.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal3 = 0.07
+Metal3.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Metal3 must extend past via2 by 0.035 on two opposite sides
+Metal3.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Metal3 must extend past via3 by 0.035 on two opposite sides
+Via3.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of via3 = 0.07
+Via3.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of via3 = 0.085
+Via3.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via3 must be inside metal3
+Via3.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via3 must be inside metal4
+Metal4.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of metal4 = 0.14
+Metal4.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal4 = 0.14
+Metal4.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum enclosure of metal4 around via3
+Via4.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of via4 = 0.14
+Via4.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of via4 = 0.16
+Via4.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via4 must be inside metal4
+Via4.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via4 must be inside metal5
+Metal5.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of metal5 = 0.14
+Metal5.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal5 = 0.14
+Metal5.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum enclosure of metal5 around via4
+Via5.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of via5 = 0.14
+Via5.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of via5 = 0.16
+Via5.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via5 must be inside metal5
+Via5.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via5 must be inside metal6
+Metal6.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of metal6 = 0.14
+Metal6.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal6 = 0.14
+Metal6.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum enclosure of metal6 around via5
+Via6.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of via6 = 0.14
+Via6.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of via6 = 0.16
+Via6.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via6 must be inside metal6
+Via6.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via6 must be inside metal7
+Metal7.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of metal7 = 0.4
+Metal7.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal7 = 0.4
+Metal7.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum enclosure of metal7 around via6
+Via7.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of via7 = 0.4
+Via7.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of via7 = 0.44
+Via7.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via7 must be inside metal7
+Via7.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via7 must be inside metal8
+Metal8.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of metal8 = 0.4
+Metal8.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal8 = 0.4
+Metal8.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum enclosure of metal8 around via7
+Via8.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of via8 = 0.4
+Via8.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of via8 = 0.44
+Via8.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via8 must be inside metal8
+Via8.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via8 must be inside metal9
+Metal9.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of metal9 = 0.8
+Metal9.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal9 = 0.8
+Metal9.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum enclosure of metal9 around via8
+Via9.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of via9 = 0.8
+Via9.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of via9 = 0.88
+Via9.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via9 must be inside metal9
+Via9.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Via9 must be inside metal10
+Metal10.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum width of metal10 = 0.8
+Metal10.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal10 = 0.8
+Metal10.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum enclosure of metal10 around via9
+Metal1.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal1 wider than 0.09 & longer than 0.3 = 0.09
+Metal1.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal1 wider than 0.27 & longer than 0.9 = 0.27
+Metal1.7
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal1 wider than 0.5 & longer than 1.8 = 0.5
+Metal1.8
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal1 wider than 0.9 & longer than 2.7 = 0.9
+Metal1.9
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal1 wider than 1.5 & longer than 4.0 = 1.5
+Metal2.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal2 wider than 0.09 & longer than 0.3 = 0.09
+Metal2.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal2 wider than 0.27 & longer than 0.9 = 0.27
+Metal2.7
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal2 wider than 0.5 & longer than 1.8 = 0.5
+Metal2.8
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal2 wider than 0.9 & longer than 2.7 = 0.9
+Metal2.9
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal2 wider than 1.5 & longer than 4.0 = 1.5
+Metal3.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal3 wider than 0.09 & longer than 0.3 = 0.09
+Metal3.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal3 wider than 0.27 & longer than 0.9 = 0.27
+Metal3.7
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal3 wider than 0.5 & longer than 1.8 = 0.5
+Metal3.8
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal3 wider than 0.9 & longer than 2.7 = 0.9
+Metal3.9
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal3 wider than 1.5 & longer than 4.0 = 1.5
+Metal4.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal4 wider than 0.27 & longer than 0.9 = 0.27
+Metal4.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal4 wider than 0.5 & longer than 1.8 = 0.5
+Metal4.7
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal4 wider than 0.9 & longer than 2.7 = 0.9
+Metal4.8
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal4 wider than 1.5 & longer than 4.0 = 1.5
+Metal5.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal5 wider than 0.27 & longer than 0.9 = 0.27
+Metal5.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal5 wider than 0.5 & longer than 1.8 = 0.5
+Metal5.7
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal5 wider than 0.9 & longer than 2.7 = 0.9
+Metal5.8
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal5 wider than 1.5 & longer than 4.0 = 1.5
+Metal6.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal6 wider than 0.27 & longer than 0.9 = 0.27
+Metal6.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal6 wider than 0.5 & longer than 1.8 = 0.5
+Metal6.7
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal6 wider than 0.9 & longer than 2.7 = 0.9
+Metal6.8
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal6 wider than 1.5 & longer than 4.0 = 1.5
+Metal7.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal7 wider than 0.5 & longer than 1.8 = 0.5
+Metal7.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal7 wider than 0.9 & longer than 2.7 = 0.9
+Metal7.7
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal7 wider than 1.5 & longer than 4.0 = 1.5
+Metal8.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal8 wider than 0.5 & longer than 1.8 = 0.5
+Metal8.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal8 wider than 0.9 & longer than 2.7 = 0.9
+Metal8.7
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal8 wider than 1.5 & longer than 4.0 = 1.5
+Metal9.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal9 wider than 0.9 & longer than 2.7 = 0.9
+Metal9.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal9 wider than 1.5 & longer than 4.0 = 1.5
+Metal10.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal10 wider than 0.9 & longer than 2.7 = 0.9
+Metal10.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Minimum spacing of metal10 wider than 1.5 & longer than 4.0 = 1.5
+Grid.1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.7
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.8
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.9
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.10
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.11
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.12
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.13
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.14
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.15
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.16
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.17
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.18
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.19
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.20
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.21
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.22
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.23
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.24
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.25
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Grid.26
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+All shapes must be on a 2.5 nm grid
+Antenna.poly
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Maximum allowed field poly area to antenna area is 100:1. Connect diode to relax constraint.
+Antenna.metal1
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+Maximum allowed (poly + metal 1) antenna area to gate area is 300:1. Connect diode to relax constraint.
+Antenna.metal2
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+[Area(poly)+Area(Metal 1)]:Area(Gate) should be < 300:1 to prevent plasma induced damage.
+Antenna.metal3
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage.
+Antenna.metal4
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+[Area(poly)+Area(Metal 1)+Area(Metal 2)+Area(Metal 3)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal5
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4):Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal6
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4+M5)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal7
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal8
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal9
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage
+Antenna.metal10
+0 0 2 May 28 11:52:30 2022                     
+Rule File Pathname: /home/eeh1281/cadence/SRAM_final/8x8SENSE_PRECH_WRITECIRC/_calibreDRC.rul_
+[Area(poly+M1+M2+M3+M4+M5+M6+M7+M8+M9)]:Area(Gate) should be < 300:1 to prevent plasma induced gate oxide damage

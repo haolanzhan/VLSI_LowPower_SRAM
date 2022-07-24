@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/htz2578/ce391/cadence/sram_haolan/inverter
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT inverter.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/htz2578/ce391/cadence/sram_haolan/inverter/inverter.src.net
+lvs_LvsOutFile RULES_FILE /home/htz2578/ce391/cadence/sram_haolan/inverter/_calibreLVS.rul_
+lvs_LvsRunTimes 1652648246 1652648246

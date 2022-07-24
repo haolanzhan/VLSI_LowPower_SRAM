@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "LS38Decoder"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/vol/eecs392/projects/2022/low_power_SRAM/cadence/low_power_SRAM/LS38Decoder"
+ )
+( model
+( "project_folder/inverter/schematic" "inverter" )
+( "project_folder/LS38Decoder/schematic" "LS38Decoder" )
+ )
+( "LS38Decoder" "ihnl/cds1/map" )
+( "inverter" "ihnl/cds0/map" )
+ )

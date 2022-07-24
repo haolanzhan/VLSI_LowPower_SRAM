@@ -2,8 +2,11 @@ This is the Final Capstone Project for CE392
 
 Contents: 
 Final Project Presentation
+
 Final Project Report
+
 Cadence Library Directory
+
 
 Here is a brief description of each cellview. These directory includes everything needed to run virtuoso. There are also png files 
 In each cellview if you with to view the schematic and the layout, under the schematic, symbol, or layout folder.

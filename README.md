@@ -1,4 +1,4 @@
-This is the Final Capstone Project for CE392
+This is the Final Capstone Project for CE392 (2022)
 
 Contents: 
 
